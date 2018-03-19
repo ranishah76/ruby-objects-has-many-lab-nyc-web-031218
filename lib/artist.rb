@@ -27,9 +27,7 @@ class Artist
   end
 
   def self.song_count
-    @@song_count.select do |song_count|
-      if song[artist]
-      end 
+    @@song_count
   end
 
 end
